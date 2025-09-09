@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>AG</title>
+    <link rel="stylesheet" href="style.css"> <!-- External CSS (optional) -->
+
+    <style>
+        /* Base styling */
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #fdf6f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        /* Header */
+        header {
+            background-color: #0077cc;
+            padding: 40px 20px;
+            color: white;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .header-content h1 {
+            font-family: 'Pacifico', cursive;
+            font-size: 48px;
+            margin: 0;
+            padding-top: 10px; /* lowers the heading */
+            text-shadow: 1px 1px 2px #aaa;
+        }
+
+
+        .profile-img {
+      width: 200px;       /* Adjust as needed */
+      height: auto;       /* Keeps original image proportions */
+      border: 3px solid white;
+      border-radius: 0;   /* Removes circular shape */
+     }
+
+
+        /* Section headings */
+        h2, h3 {
+            color: #4a148c;
+            text-decoration: underline;
+        }
+
+        /* About Section */
+        .about p {
+            font-style: italic;
+            padding-left: 10px;
+        }
+
+        /* Hobbies list */
+        .hobbies ol {
+            padding-left: 25px;
+            color: #3e2723;
+            font-size: 18px;
+        }
+
+        /* External link */
+        .external-link a {
+            display: inline-block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #8e24aa;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .external-link a:hover {
+            background-color: #6a1b9a;
+        }
+
+        /* Image container */
+        .image-container {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        /* Form Styling */
+        .form-section {
+            margin-top: 30px;
+            background-color: #f3e5f5;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 400px;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        .form-section form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-section label {
+            margin: 10px 0 5px;
+            font-weight: bold;
+            color: #4a148c;
+        }
+
+        .form-section input {
+            padding: 8px;
+            border: 1px solid #bbb;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .form-section button {
+            margin-top: 15px;
+            padding: 10px;
+            font-size: 16px;
+            background-color: #8e24aa;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        .form-section button:hover {
+            background-color: #6a1b9a;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header with image on the right -->
+    <header>
+        <div class="header-content">
+            <h4>                      Hi! I'm Avani Gupta,
+                I am passionate about creating websites and learning new technologies,
+              a web developer who designs with rythum and codes with intention 
+                focused on performance,accessibility,and modern aesthetics.
+            </h4>
+            <img src="me.jpeg" alt="Profile Photo" class="profile-img">
+        </div>
+        <button type="#">projects</button>
+        <button type="#">linkedin</button>
+    </header>
+
+    <div class="hobbies">
+        <h1><center>PROJECTS</center></h1>
+        <h3><center>MY HOBBIES</center></h3>
+        
+            <center>coding</center>
+            <center>doing new creative things</center>
+            <center>painting</center>
+            <center>sketching</center>
+      
+    </div>
+    
+
+    <center><div class="external-link">
+        <a href="http://www.ggsipu.com" target="_blank">Visit GGSIPU Website</a>
+    </div></center>
+
+  
+   <div class="form-section">
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name">
+
+            <label for="email">Email:</label>
+            <input type="email" id="email">
+
+            <label for="password">Password:</label>
+            <input type="password" id="password">
+
+            <label for="age">Age:</label>
+            <input type="number" id="age">
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
